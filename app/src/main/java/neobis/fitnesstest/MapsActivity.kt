@@ -99,6 +99,7 @@ class MapsActivity : AppCompatActivity(),
                 e.printStackTrace()
             }
 
+
         } else if (builder == null && mMap != null) {
             mMap?.animateCamera(CameraUpdateFactory.newLatLngZoom(LatLng(42.88200, 74.58274), 10f))
         }
